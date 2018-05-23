@@ -5,6 +5,7 @@
 
 body {
   margin: 100px;
+  background-image: url(../img/ignasi_pattern_s.png);
 }
 .banner {
   margin: 0 auto;
@@ -38,6 +39,7 @@ body {
   font-weight: bold;
 }
 .column {
+  background-color: #FFC5B6;
   border: solid black 5px;
   height: 420px;
 }
@@ -65,9 +67,27 @@ h2 {
 }
 
 .footer {
+  clear:left;
+  padding: 25px 10px 10px 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(249,249,249, 0.5);
+}
+
+.footer p {
+  display: inline-block;
+}
+
+.left {
   float: left;
 }
 
+.center {
+  padding-left: 50px;
+}
+
+.right {
+  float: right;
+}
  #left, #right {
 	background: #FF5D19;
 	position: fixed;
