@@ -1,0 +1,15 @@
+.banner {
+  margin: 0 auto;
+  max-width: 500px;
+  background-image: url("../img/search.jpeg");
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.profile {
+  padding: 30px;
+  width: 50%
+}
+.column {
+  float: left;
+  border: solid black 10px;
+}
