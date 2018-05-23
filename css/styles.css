@@ -8,7 +8,7 @@
 }
 .main-container {
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 750px;;
 }
 .column {
   border: solid black 5px;
@@ -29,4 +29,8 @@
 
 h2 {
   padding-left: 10px;
+}
+
+.footer {
+
 }
